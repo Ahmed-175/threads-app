@@ -54,7 +54,7 @@ A modern social media application built with a microservices architecture, featu
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/Ahmed-175/threads-app.git
 cd learn-microserversies
 ```
 
