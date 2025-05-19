@@ -30,6 +30,8 @@ const createPost = async (req, res) => {
       text,
     });
 
+    existingUser.posts.push(newPost._id);
+    await existingUser.save();
     // Respond with the created post
     return res.status(201).json({
       message: "Post created successfully.",
